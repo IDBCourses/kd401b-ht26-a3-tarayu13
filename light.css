@@ -1,0 +1,8 @@
+:root {
+  --color-bg: #f7f3e8;
+  --color-text: #000000;
+  --color-accent: #535736;
+  --color-accent-hover: hsl(69 21% 43%);
+  --color-box: #fffaf0;
+  --color-button-text: #ffffff;
+}
