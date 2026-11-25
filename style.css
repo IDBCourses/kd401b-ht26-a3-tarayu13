@@ -26,13 +26,24 @@ nav ul {
   padding: 0;
 }
 
+a {
+  color: var(--color-accent);
+}
+
 nav a {
   color: var(--color-button-text);
   font-size: 16px;
 }
 
-a {
-  color: var(--color-accent);
+footer {
+  background-color: var(--color-accent);
+  color: var(--color-button-text);
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: var(--color-button-text);
 }
 
 a:hover {
@@ -81,15 +92,4 @@ aside {
   background-color: var(--color-box);
   padding: 20px;
   margin-bottom: 20px;
-}
-
-footer {
-  background-color: var(--color-accent);
-  color: var(--color-button-text);
-  padding: 20px;
-  text-align: center;
-}
-
-footer a {
-  color: var(--color-button-text);
 }
